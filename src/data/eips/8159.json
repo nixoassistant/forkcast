@@ -16,14 +16,16 @@
       "statusHistory": [
         {
           "status": "Considered",
-          "call": "ACDE #230",
+          "call": "acde/230",
           "date": "2026-02-12"
         }
       ],
-      "champion": {
-        "name": "Toni Wahrstätter",
-        "discord": "nero_eth"
-      }
+      "champions": [
+        {
+          "name": "Toni Wahrstätter",
+          "discord": "nero_eth"
+        }
+      ]
     }
   ],
   "laymanDescription": "Allows Ethereum nodes to share block access lists over the network. These lists record which accounts and storage slots a block touched, enabling faster syncing and parallel transaction processing.",
